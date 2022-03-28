@@ -5,8 +5,8 @@ import IconLuxury from "./assets/icon-luxury.svg";
 const App = () => {
   return (
     <>
-      <div className="flex min-h-screen w-full items-center justify-center bg-[#F2F2F2] py-[90px]">
-        <div className="flex w-[325px] flex-col rounded-lg lg:w-[920px] lg:flex-row">
+      <div className="flex min-h-screen min-w-fit items-center justify-center bg-[#F2F2F2] px-[20px] py-[90px]">
+        <div className="flex w-[325px] min-w-[325px] flex-col rounded-lg lg:w-[920px] lg:flex-row">
           {/*First card*/}
           <div className="h-[441px]	rounded-t-lg bg-[#E38826] px-[50px] lg:h-[500px] lg:rounded-t-none lg:rounded-l-lg lg:leading-6">
             <div className="flex h-full flex-col justify-evenly py-6">
