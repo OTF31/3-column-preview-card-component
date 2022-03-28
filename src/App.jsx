@@ -5,10 +5,10 @@ import IconLuxury from "./assets/icon-luxury.svg";
 const App = () => {
   return (
     <>
-      <div className="flex h-full items-center justify-center bg-[#F2F2F2] py-[90px]">
-        <div className="w-[325px] rounded-lg">
+      <div className="flex min-h-screen w-full items-center justify-center bg-[#F2F2F2] py-[90px]">
+        <div className="flex w-[325px] flex-col rounded-lg lg:w-[920px] lg:flex-row">
           {/*First card*/}
-          <div className="h-[441px]	rounded-t-lg bg-[#E38826] px-[50px]">
+          <div className="h-[441px]	rounded-t-lg bg-[#E38826] px-[50px] lg:h-[500px] lg:rounded-t-none lg:rounded-l-lg lg:leading-6">
             <div className="flex h-full flex-col justify-evenly py-6">
               {/*Icon sedans*/}
               <img
@@ -29,14 +29,14 @@ const App = () => {
               </p>
 
               {/*Button*/}
-              <button className="h-[50px] w-[145px] rounded-3xl bg-[#F2F2F2] font-lexendDeca text-[17px] text-[#E38826]">
+              <button className="h-[50px] w-[145px] rounded-3xl bg-[#F2F2F2] font-lexendDeca text-[17px] text-[#E38826] lg:relative lg:top-[40px]">
                 Learn more
               </button>
             </div>
           </div>
 
           {/*Second card*/}
-          <div className="h-[441px] bg-[#006970] pl-[50px] pr-[50px]">
+          <div className="h-[441px] bg-[#006970] pl-[50px] pr-[50px] lg:h-[500px] lg:leading-6">
             <div className="flex h-full flex-col justify-evenly py-6">
               {/*Icon suvs*/}
               <img src={IconSuvs} alt="Suvs" className="h-[35px] w-[70px]" />
@@ -53,14 +53,14 @@ const App = () => {
               </p>
 
               {/*Button*/}
-              <button className="h-[50px] w-[145px] rounded-3xl bg-[#F2F2F2] font-lexendDeca text-[17px] text-[#006970]">
+              <button className="h-[50px] w-[145px] rounded-3xl bg-[#F2F2F2] font-lexendDeca text-[17px] text-[#006970] lg:relative lg:top-[40px]">
                 Learn more
               </button>
             </div>
           </div>
 
           {/*Third card*/}
-          <div className="h-[441px] rounded-b-lg bg-[#004241] pl-[50px] pr-[50px]">
+          <div className="h-[441px] rounded-b-lg bg-[#004241] pl-[50px] pr-[50px] lg:h-[500px] lg:rounded-b-none lg:rounded-r-lg lg:leading-6">
             <div className="flex h-full flex-col justify-evenly py-6">
               {/*Icon luxury*/}
               <img
@@ -81,7 +81,7 @@ const App = () => {
               </p>
 
               {/*Button*/}
-              <button className="h-[50px] w-[145px] rounded-3xl bg-[#F2F2F2] font-lexendDeca text-[17px] text-[#004241]">
+              <button className="h-[50px] w-[145px] rounded-3xl bg-[#F2F2F2] font-lexendDeca text-[17px] text-[#004241] lg:relative lg:top-[40px]">
                 Learn more
               </button>
             </div>
