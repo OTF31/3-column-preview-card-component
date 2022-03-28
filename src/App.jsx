@@ -23,7 +23,7 @@ const App = () => {
               </h1>
 
               {/*Description*/}
-              <p className="font-lexendDeca text-[15px] text-[#FFFFFF]">
+              <p className="font-lexendDeca text-[15px] text-[#FFFFFF]/[0.75]">
                 Choose a sedan for its affordability and excellent fuel economy.
                 Ideal for cruising in the city or on your next road trip.
               </p>
@@ -47,7 +47,7 @@ const App = () => {
               </h1>
 
               {/*Description*/}
-              <p className="font-lexendDeca text-[15px] text-[#FFFFFF]">
+              <p className="font-lexendDeca text-[15px] text-[#FFFFFF]/[0.75]">
                 Take an SUV for its spacious interior, power, and versatility.
                 Perfect for your next family vacation and off-road adventures.
               </p>
@@ -75,7 +75,7 @@ const App = () => {
               </h1>
 
               {/*Description*/}
-              <p className="font-lexendDeca text-[15px] text-[#FFFFFF]">
+              <p className="font-lexendDeca text-[15px] text-[#FFFFFF]/[0.75]">
                 Cruise in the best car brands without the bloated prices. Enjoy
                 the enhanced comfort of a luxury rental and arrive in style.
               </p>
