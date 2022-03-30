@@ -29,7 +29,7 @@ const App = () => {
               </p>
 
               {/*Button*/}
-              <button className="h-[50px] w-[145px] rounded-3xl bg-[#F2F2F2] font-lexendDeca text-[17px] text-[#E38826] lg:relative lg:top-[40px]">
+              <button className="h-[50px] w-[145px] rounded-3xl bg-[#F2F2F2] font-lexendDeca text-[17px] text-[#E38826] hover:border-2 hover:bg-[#E38826] hover:text-[#F2F2F2] lg:relative lg:top-[40px]">
                 Learn more
               </button>
             </div>
@@ -53,7 +53,7 @@ const App = () => {
               </p>
 
               {/*Button*/}
-              <button className="h-[50px] w-[145px] rounded-3xl bg-[#F2F2F2] font-lexendDeca text-[17px] text-[#006970] lg:relative lg:top-[40px]">
+              <button className="h-[50px] w-[145px] rounded-3xl bg-[#F2F2F2] font-lexendDeca text-[17px] text-[#006970] hover:border-2 hover:bg-[#006970] hover:text-[#F2F2F2] lg:relative lg:top-[40px]">
                 Learn more
               </button>
             </div>
@@ -81,7 +81,7 @@ const App = () => {
               </p>
 
               {/*Button*/}
-              <button className="h-[50px] w-[145px] rounded-3xl bg-[#F2F2F2] font-lexendDeca text-[17px] text-[#004241] lg:relative lg:top-[40px]">
+              <button className="h-[50px] w-[145px] rounded-3xl bg-[#F2F2F2] font-lexendDeca text-[17px] text-[#004241] hover:border-2 hover:bg-[#004241] hover:text-[#F2F2F2] lg:relative lg:top-[40px]">
                 Learn more
               </button>
             </div>
